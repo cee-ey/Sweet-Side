@@ -8,7 +8,7 @@ namespace World_of_Foods
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("*The SweetCookbook Class in C#er Side♡*");
+            Console.WriteLine("*The Sweet Side♡*");
 
             bool Exit = false;
             while (!Exit)
@@ -38,9 +38,9 @@ namespace World_of_Foods
                         Console.WriteLine("\n–––America–––");
                         List<string> AmericaPlace = new List<string>
                         {
-                            " Colombia",
-                            " Argentina",
-                            " Brazil"
+                            " U.S.A",
+                            " Canada",
+                            " Argentina"
                         };
                         DisplayPlaces(AmericaPlace);
                         break;
